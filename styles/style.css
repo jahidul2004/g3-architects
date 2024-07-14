@@ -425,3 +425,33 @@ header {
 }
 
 /* Sponsor section responsive design end here */
+
+/* Footer section start from here */
+
+footer {
+    max-width: 1080px;
+    height: 90px;
+    background-color: #fff4e7;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Footer section end */
+
+/* Footer section responsive design start from here */
+
+@media screen and (max-width: 572px) {
+    footer {
+        text-align: center;
+    }
+}
+
+/* Footer section responsive design section end */
