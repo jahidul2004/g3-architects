@@ -380,3 +380,48 @@ header {
     }
 }
 /* Facts section responsive end */
+
+/* Sponsors section start from here */
+
+.sponsors .sponsor-title {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.sponsors .sponsor-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.sponsors .sponsors-image {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+}
+
+.sponsors .sponsors-image img {
+    filter: grayscale(100%);
+}
+/* Sponsors section end here */
+
+/* Sponsors section responsive design start from here */
+@media screen and (max-width: 572px) {
+    .sponsors .sponsors-image {
+        flex-direction: column;
+    }
+
+    .sponsors .sponsors-image img {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+/* Sponsor section responsive design end here */
