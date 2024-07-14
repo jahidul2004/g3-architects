@@ -196,6 +196,8 @@ header {
 .features {
     width: 100%;
     margin-top: 92px;
+    margin-bottom: 126px;
+    position: relative;
 }
 
 .features-area {
@@ -252,6 +254,23 @@ header {
     font-weight: 400;
     line-height: 26px;
 }
+
+.features .experience-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    height: 80px;
+    background-color: #ff900e;
+    position: absolute;
+    bottom: 0;
+    right: 34%;
+    bottom: 70px;
+    color: white;
+    border-radius: 8px;
+}
 /* Features section end here */
 
 /* Features section responsive design start here */
@@ -282,6 +301,82 @@ header {
     .features .features-info {
         width: 90%;
     }
+    .features .experience-display {
+        display: none;
+    }
 }
 
 /* Features section responsive design end here */
+
+/* Facts section start from here */
+
+.facts {
+    width: 100%;
+    margin-bottom: 136px;
+}
+.facts .facts-info {
+    width: 40%;
+}
+.facts .facts-info .facts-title {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.facts .facts-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.facts .facts-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.facts .fact {
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    width: 15%;
+    padding: 20px 0;
+}
+
+.facts .fact h2 {
+    color: #424242;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.facts .fact p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Facts section end */
+
+/* Facts section responsive design start */
+
+@media screen and (max-width: 572px) {
+    .facts .facts-area {
+        flex-direction: column;
+    }
+
+    .facts .fact {
+        width: 40%;
+        margin: 10px 0;
+    }
+
+    .facts .facts-info {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+/* Facts section responsive end */
