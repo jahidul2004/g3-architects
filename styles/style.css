@@ -1,2 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Fonts Setup */
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Fonts setup end */
+
+/* Shared Styles start */
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 18px;
+    cursor: pointer;
+}
+
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/* Shared styles end */
+
+/* Header styles start */
+header {
+    background-color: #ff900e1a;
+}
+/* Header styles end */
+
+/* Navbar styles start */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0;
+    margin-bottom: 88px;
+}
+.navbar .brand {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar,
+.banner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/* Navbar styles end */
+
+/* Banner style start */
+.banner-content {
+    max-width: 646px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.banner .banner-image{
+    width: 100%;
+}
+/* Banner style end */
+
+/* Header section responsive start */
+@media screen and (max-width:572px) {
+    .navbar,.nav-links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-item{
+        padding: 10px;
+    }
+    .banner-description{
+        padding: 0 6px;
+    }
+}
+
+/* Header section responsive end */
+
+
+
+
+
+/*  */
