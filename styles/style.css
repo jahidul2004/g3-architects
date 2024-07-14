@@ -21,7 +21,7 @@
 .btn-primary {
     border: none;
     border-radius: 8px;
-    background: rgb(255, 144, 14);
+    background: #ff900e;
     color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
@@ -190,3 +190,98 @@ header {
     }
 }
 /* Teams section responsive end */
+
+/* Features section start */
+
+.features {
+    width: 100%;
+    margin-top: 92px;
+}
+
+.features-area {
+    width: 50%;
+    margin-right: 110px;
+}
+
+.features-image {
+    width: 50%;
+}
+.features-image img {
+    width: 100%;
+    height: 90%;
+}
+
+.features-area .feature-title {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    border-left: 6px solid #ff900e;
+    padding-left: 20px;
+    margin-bottom: 18px;
+}
+
+.features-area .feature-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.features .features-card .card {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px #0000000f;
+    background: #ffffff;
+    margin: 12px 0;
+    padding: 22px 32px 22px 22px;
+}
+
+.card .card-title {
+    color: #131313;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.card .card-description {
+    color: #727272;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* Features section end here */
+
+/* Features section responsive design start here */
+@media screen and (max-width: 572px) {
+    .features {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features .features-image {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .features .features-area {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .features .features-card {
+        width: 95%;
+    }
+
+    .features .features-card .card {
+        width: 90%;
+    }
+    .features .features-info {
+        width: 90%;
+    }
+}
+
+/* Features section responsive design end here */
